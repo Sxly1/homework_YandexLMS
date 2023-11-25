@@ -40,7 +40,3 @@ class LettersRhombus:
                 append += self.matrix[j][i]
             a.append(append)
         return a
-
-
-lines = LettersRhombus("C")
-print(*lines.cols(), sep="\n")
